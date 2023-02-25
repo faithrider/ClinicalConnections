@@ -1,58 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Clinical Connections - Home</title>
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+	<meta charset="UTF-8">
+	<title>CLINCIALCONNECTIONS</title>
 	<link rel="stylesheet" href="stylesheet.css">
+	<script src="script.js"></script>
 </head>
 <body>
-
-	<!-- Side Navigation -->
-	<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
-		<h1 class="w3-xxxlarge w3-text-theme">Menu</h1>
-		<button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
-		<a href="#" class="w3-bar-item w3-button">About Us</a>
-		<a href="#" class="w3-bar-item w3-button">Search for a Provider</a>
-		<a href="#" class="w3-bar-item w3-button">Organization Sign-Up</a>
-		<a href="#" class="w3-bar-item w3-button">Legal & HIPPA</a>
-  	</nav>
-
-	<!-- Header -->
-	<header class="w3-container w3-theme w3-padding" id="myHeader">
-	<i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
-	<div class="w3-center">
-	
-	<h1 class="w3-xxxlarge w3-animate-bottom">CLINICAL CONNECTIONS</h1>
-	<h4>A Community Outreach Initiative</h4>
-	<div class="w3-padding-32">
-		
-		<button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">GET STARTED TODAY</button>
-	  </div>
-	
-	</div>
-  </header>
-
-<script>
-
-// Side navigation
-function w3_open() {
-  var x = document.getElementById("mySidebar");
-  x.style.width = "30%";
-  x.style.fontSize = "20px";
-  x.style.paddingTop = "10%";
-  x.style.display = "block";
-}
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-
-</script>
-
-
+	<header>
+		<h1>CLINCIAL CONNECTIONS</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="search.html">Search for a Provider</a></li>
+				<li><a href="org-signup.html">Organization Sign-Up</a></li>
+				<li><a href="disclaimers.html">Legal & HIPPA</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>About Us</h2>
+			<p>We are a company that specializes in creating static websites. Our team of experts can help you create a website that looks great and is easy to use.</p>
+		</section>
+		<section>
+			<h2>Our Services</h2>
+			<ul>
+				<li>Website design</li>
+				<li>Website development</li>
+				<li>Search engine optimization</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 ClinicalConnections. All rights reserved.</p>
+	</footer>
 </body>
 </html>
-
