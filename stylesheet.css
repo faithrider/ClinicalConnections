@@ -60,12 +60,6 @@ ul {
 	text-align: center;
   }
 
-  .card-no-shadow {
-	max-width: 300px;
-	margin: auto;
-	text-align: center;
-  }
-
 .card button {
 border: none;
 outline: 0;
