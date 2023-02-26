@@ -76,17 +76,19 @@ font-size: 18px;
 opacity: 0.7;
 }
 
-.parent {
-	border: 1px solid white;
-	margin: 1rem;
-	padding: 2rem 2rem;
-	text-align: center;
+.flex-parent-element {
+	display: flex;
+	width: 50%;
   }
-  .child {
-	display: inline-block;
-	border: 1px solid white;
-	padding: 1rem 1rem;
-	vertical-align: middle;
+  
+  .flex-child-element {
+	flex: 1;
+	border: 2px solid blueviolet;
+	margin: 10px;
+  }
+  
+  .flex-child-element:first-child {
+	margin-right: 20px;
   }
 
 
