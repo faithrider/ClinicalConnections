@@ -7,7 +7,7 @@ body {
 
 header {
 	background-color: #333;
-	color: #ffffff;
+	color: white;
 	padding: 20px;
 	text-align: center;
 }
@@ -25,7 +25,7 @@ nav li {
 }
 
 nav a {
-	color: #fff;
+	color: white;
 	text-decoration: none;
 }
 
@@ -59,6 +59,23 @@ ul {
 	margin: auto;
 	text-align: center;
   }
+
+.card button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #333;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.card button:hover {
+opacity: 0.7;
+}
+
 
 
 footer {
