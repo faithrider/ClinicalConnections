@@ -78,10 +78,10 @@ opacity: 0.7;
 
 .grid-container-element { 
     display: grid; 
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
     grid-gap: 20px; 
     border: 1px solid black; 
-    width: 50%; 
+    width: 100%; 
 } 
 .grid-child-element { 
     margin: 10px; 
